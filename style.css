@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    background-image: url(download\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 135px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: -2%;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
+    
+}
+
+ul{
+    margin-top: -4%;
+    padding: 5PX;
+    position: relative;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background:rgba(255, 255, 255, 0.1) ;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    overflow: hidden;
+
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: -3%;
+    transition: .4s ease;
+    transition: all 0.4s linear;
+
+}
+
+ul li a:hover{
+    color: rgb(243, 73, 5);
+    transform: scale(2.4s);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 63px;
+    color: white;
+}
+.info h3{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: rgb(194, 188, 181);
+}
+span{
+    color: rgb(50, 224, 137);
+}
+.info a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background:rgba(255, 255, 255, 0.1) ;
+    margin: 26px ;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+    
+}
+
+.info a:hover{
+    color: black;
+    background: skyblue;
+    
+}
+.image{
+    width: 60%;
+    height: 30%;
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+}
+.image img {
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+.image:hover .me{
+    left: 55%;
+}
+.social-logo{
+    
+    display: flex;
+    
+    align-items: left;
+    margin-left: 7%;
+    margin-top: 0%;
+    font-size: 30px;
+}
+.social-logo a{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    color: rgb(4, 240, 55);
+    background-color: #f5f6fa;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px #000000;
+}
+.social-logo a i{
+    transition: all 0.3s linear;
+}
+.social-logo a:hover i{
+    background-color: aqua;
+    color:  rgb(0, 0, 0);
+    transform: scale(1.5);
+}
+
